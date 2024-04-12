@@ -1,4 +1,4 @@
-# Likvido.Extensions.DependencyInjection
+# Likvido.Extensions.DependencyInjection [![Nuget](https://img.shields.io/nuget/v/Likvido.Extensions.DependencyInjection)](https://www.nuget.org/packages/Likvido.Extensions.DependencyInjection/)
 Helper extension methods for registering types for dependency injection
 
 ## AddImplementations
