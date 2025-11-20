@@ -4,8 +4,19 @@ updates:
     directory: /
     schedule:
       interval: daily
+    # Group all dependencies into a single PR
+    groups:
+      github-actions:
+        patterns:
+          - "*"
   - package-ecosystem: nuget
     directory: /src/Likvido.Accounting
     open-pull-requests-limit: 10
     schedule:
       interval: daily
+
+    # Group all dependencies into a single PR
+    groups:
+      nuget-dependencies:
+        patterns:
+          - "*"
